@@ -1,0 +1,47 @@
+baseURL = "https://dianeandroyce.com/"
+languageCode = "en-us"
+title = "Diane to be a Remer"
+theme = "hugo-elate-theme"
+
+[params]
+  
+  [params.navigation]
+    brand = "#DianeToBeARemer"
+    work = "when"
+    about = "where"
+    testimonials = "answers"
+
+  [params.hero]
+    title = "Diane to be a Remer!"
+    subtitle = 'A union of <a ref="#diane" target="_blank">Diane Tran</a> and <a ref="#royce" target="_blank">Royce Remer</a>'
+ 
+  [params.work]
+    enable = true
+    title = "When"
+    description = "Save the date!"
+ 
+  [params.about]
+    enable = true
+    title = "Where"
+    description = "A venue fitting of our union."
+    
+  [params.testimonials]
+    enable = true
+    title = "Answers"
+    description = "What else you need to know."
+
+    [[params.testimonials.item]]
+      question = "What should I wear?"
+      answer = "Suits/dresses. Goin' to the club, if you want. Perhaps commuting to the interview, if you prefer."
+      person = "Mr. Badger"
+      img = "mrbadger.png"
+      alt = "Mr. Badger"
+
+    [[params.testimonials.item]]
+      question = "Are you expecting a gift?"
+      answer = "No."
+
+    [[params.testimonials.item]]
+      question = "I'm going to give a gift anyways. This isn't a question"
+      answer = "Please don't, but there are <a href=registries.md>registries here</a>"
+    
