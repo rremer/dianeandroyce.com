@@ -3,3 +3,7 @@ base    = "site/"
 publish = "generated"
 command = "hugo --gc --minify --destination generated"
 
+[context.production.environment]
+HUGO_VERSION = "0.53"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
