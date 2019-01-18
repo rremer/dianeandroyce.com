@@ -1,6 +1,6 @@
 [build]
 base    = "site/"
-publish = "generated"
+publish = "site/generated"
 command = "hugo --gc --minify --destination generated"
 
 [context.production.environment]
