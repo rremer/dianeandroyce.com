@@ -32,16 +32,49 @@ theme = "hugo-elate-theme"
 
     [[params.testimonials.item]]
       question = "What should I wear?"
-      answer = "Suits/dresses. Goin' to the club, if you want. Perhaps commuting to the interview, if you prefer."
+      answer = "For the men, a dark suit with an optional tie or bowtie and any kind of button up. For the ladies, anything from sequined, over-the-knee dresses or elegant ankle-length gowns."
       person = "Mr. Badger"
       img = "mrbadger.png"
       alt = "Mr. Badger"
 
     [[params.testimonials.item]]
       question = "Are you expecting a gift?"
-      answer = "No."
+      answer = "No, thank you.  Your presence is our present! If you absolutely insist on giving a gift, refer to <a href=registries.md>registries here</a>"
 
     [[params.testimonials.item]]
-      question = "I'm going to give a gift anyways. This isn't a question"
-      answer = "Please don't, but there are <a href=registries.md>registries here</a>"
+      question = "How did you two meet?"
+      answer = "We both worked in a Tech Stop at Google and sat next to each other.  We were an efficient team with complementary skillsets; Royce was far more technical when working with engineers and Diane was much more patient with the non-technical folks."
     
+    [[params.testimonials.item]]
+      question = "Who is in the wedding party?"
+      answer = "A combination of close family and friends, please refer to (link here) to learn more about the wedding party!"
+      
+     [[params.testimonials.item]]
+      question = "Are children invited to your wedding?"
+      answer = "Of course they are!  We wouldn't have it any other way."
+      
+     [[params.testimonials.item]]
+      question = "How do I get there?"
+      answer = "We have all the information you need on the (link here) page!"
+     
+     [[params.testimonials.item]]
+      question = "What kind of entertainment or festivities will be there?"
+      answer = "Fuck if I know. Go drink."
+      
+     [[params.testimonials.item]]
+      question = "Will there be drinks and food?"
+      answer = "Yes! We will have hors d'oeuvres before the ceremony, an open bar, dinner, and a dessert bar."
+      
+     [[params.testimonials.item]]
+      question = "How can I stay updated?"
+      answer = "There will be a mailing list for guests and Diane or Colleen (wedding planner) will send updates every so often leading up to the wedding day."
+      
+     [[params.testimonials.item]]
+      question = "Where are you going for your honeymoon?"
+      answer = "Buhhhh...."
+      
+     [[params.testimonials.item]]
+      question = "What can I do to help out with the wedding?"
+      answer = "We would prefer that our dearest family and friends have fun and enjoy the day. The staff and Colleen (wedding planner) will take care of the details."
+      
+      
