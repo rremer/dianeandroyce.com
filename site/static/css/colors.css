@@ -1,0 +1,7 @@
+:root {
+      --theme-main:#03274c;
+      --theme-sub:#168af4;
+      --dark-main:#444;
+      --light-main:#fff;
+      --gradient-webkit:-webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, var(--theme-main)), color-stop(1, var(--theme-sub)));
+}

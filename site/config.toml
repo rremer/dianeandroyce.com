@@ -4,6 +4,8 @@ title = "Diane to be a Remer"
 theme = "hugo-elate-theme"
 
 [params]
+
+  custom_css = ["css/colors.css","css/header.css","css/home.css","css/when.css","css/answers.css","css/where.css"]
   
   [params.navigation]
     brand = "#DianeToBeARemer"

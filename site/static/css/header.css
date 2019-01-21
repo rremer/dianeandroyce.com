@@ -1,0 +1,114 @@
+@media screen and (max-width: 768px) {
+  #fh5co-header {
+    margin-top: 0;
+    background: var(--light-main);
+    -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  #fh5co-header .navbar-brand {
+    color: var(--dark-main) !important;
+  }
+
+  #fh5co-header #navbar li a {
+    color: rgba(0, 0, 0, 0.5) !important;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+
+  #fh5co-header #navbar li a:hover {
+    color: var(--theme-main) !important;
+  }
+
+  #fh5co-header #navbar li a span:before {
+    background: transparent !important;
+  }
+
+  #fh5co-header #navbar li.active a {
+    background: transparent;
+    background: none;
+    color: var(--theme-main) !important;
+  }
+
+  #fh5co-header #navbar li.active a span:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+
+#fh5co-header .navbar-brand {
+  float: left;
+  display: block;
+  font-size: 30px;
+  font-weight: 700;
+  padding-left: 0;
+  color: var(--light-main);
+}
+
+#fh5co-header.navbar-fixed-top {
+  position: fixed !important;
+  background: var(--light-main);
+  -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+  margin-top: 0px;
+  top: 0;
+}
+
+#fh5co-header.navbar-fixed-top .navbar-brand {
+  color: var(--dark-main);
+}
+
+#fh5co-header.navbar-fixed-top #navbar li a:hover {
+  color: var(--theme-main);
+}
+
+#fh5co-header.navbar-fixed-top #navbar li.active a {
+  background: transparent;
+  background: none;
+  color: var(--theme-main);
+}
+
+#fh5co-header.navbar-fixed-top #navbar li.active a span:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  background-color: var(--theme-main);
+}
+
+.fh5co-nav-toggle.active i::before, .fh5co-nav-toggle.active i::after {
+   background: var(--theme-main);
+ }
+
+.fh5co-nav-toggle i::before, .fh5co-nav-toggle i::after {
+  content: '';
+  width: 25px;
+  height: 3px;
+  background: var(--theme-main);
+  position: absolute;
+  left: 0;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+
+a {
+  color: var(--theme-main);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+a:hover, a:active, a:focus {
+  color: var(--theme-main);
+  outline: none;
+}
+
+.section-heading h2:after {
+  background: var(--dark-main);
+}

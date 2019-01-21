@@ -1,0 +1,15 @@
+#fh5co-work {
+  overflow: hidden;
+  position: relative;
+  color: rgba(255, 255, 255, 0.8);
+  background-color:var(--theme-main);
+  background-image:var(--gradient-webkit);
+}
+
+#fh5co-work .section-heading h3 {
+  color: var(--light-main);
+}
+
+#fh5co-work .section-heading h2:after {
+  background: var(--light-main) !important;
+}

@@ -1,0 +1,11 @@
+#fh5co-about {
+  overflow: hidden;
+  position: relative;
+  color: rgba(255, 255, 255, 0.8);
+  background-color:var(--light-main);
+}
+/*
+#fh5co-about .section-heading h2:after {
+  background: var(--dark-main);
+}
+*/

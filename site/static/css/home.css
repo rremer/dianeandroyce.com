@@ -1,0 +1,12 @@
+#fh5co-home .gradient {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  opacity: .9;
+  -webkit-backface-visibility: hidden;
+  background-color:var(--theme-main);
+  background-image:var(--gradient-webkit);
+}
