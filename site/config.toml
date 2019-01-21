@@ -34,7 +34,7 @@ theme = "hugo-elate-theme"
 
     [[params.testimonials.item]]
       question = "What should I wear?"
-      answer = "For the men, a dark suit with an optional tie or bowtie and any kind of button up. For the ladies, anything from sequined, over-the-knee dresses or elegant ankle-length gowns."
+      answer = "For the men, a dark suit with an optional tie or bowtie and any kind of button up. For the ladies, wear anything from sequined, over-the-knee dresses to elegant ankle-length gowns."
       person = "Mr. Badger"
       img = "mrbadger.png"
       alt = "Mr. Badger"
