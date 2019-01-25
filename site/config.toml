@@ -12,6 +12,7 @@ theme = "hugo-elate-theme"
     work = "when"
     about = "where"
     testimonials = "answers"
+    contact = "who"
 
   [params.hero]
     title = "Diane to be a Remer!"
@@ -26,7 +27,19 @@ theme = "hugo-elate-theme"
     enable = true
     title = "Where"
     description = "A venue fitting of our union."
-    
+
+    [[params.about.item]]
+      name = "Childcare"
+      description = "A trusted care person will be onsite to help watch over your little ones."
+
+    [[params.about.item]]
+      name = "Parking"
+      description = "Free parking will be available, with enough spaces for half the guest list."
+
+    [[params.about.item]]
+      name = "Games"
+      description = "There will will civilized outdoor games, as well as smaller tabletop games."
+
   [params.testimonials]
     enable = true
     title = "Answers"
@@ -80,3 +93,27 @@ theme = "hugo-elate-theme"
       answer = "We would prefer that our dearest family and friends have fun and enjoy the day. The staff and Colleen (wedding planner) will take care of the details."
       
       
+  [params.contact]
+    enable = true
+    title = "Who"
+    description = "Wedding party and related people."
+
+    [[params.contact.hers]]
+      name = "Diane Tran"
+      position = "Bride"
+      description = ""
+      img = "person1.jpg"
+      social = [
+        ["icon-facebook", "https://www.facebook.com/dammmitdiane"],
+        ["icon-linkedin", "https://www.linkedin.com/in/dianediemtran"]
+      ]
+
+    [[params.contact.his]]
+      name = "Royce Remer"
+      position = "Groom"
+      description = ""
+      img = "person1.jpg"
+      social = [
+        ["icon-facebook", "https://www.facebook.com/royceremer"],
+        ["icon-linkedin", "https://www.linkedin.com/in/royceremer"]
+      ]
