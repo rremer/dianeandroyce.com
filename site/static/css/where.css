@@ -9,3 +9,19 @@
   font-style: italic;
   color: var(--dark-main);
 }
+
+/* not sure we want these headings, so matches
+ * the background of the partial page atm.
+ */
+.section-heading h4 {
+  margin: 0 0 30px 0;
+  font-size: 25px;
+  font-weight: 300;
+  color: var(--light-main);
+  text-transform: uppercase;
+  text-align: left;
+  position: relative;
+  display: block;
+  padding-bottom: 20px;
+  line-height: 1.5;
+}

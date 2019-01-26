@@ -96,7 +96,7 @@ theme = "hugo-elate-theme"
   [params.contact]
     enable = true
     title = "Who"
-    description = "Wedding party and related people."
+    description = "Members of the wedding party."
 
     [[params.contact.hers]]
       name = "Diane Tran"
@@ -116,4 +116,17 @@ theme = "hugo-elate-theme"
       social = [
         ["icon-facebook", "https://www.facebook.com/royceremer"],
         ["icon-linkedin", "https://www.linkedin.com/in/royceremer"]
+      ]
+
+    [[params.contact.theirs]]
+      name = "Colleen Bataille"
+      position = "Planner"
+      description = ""
+      img = "person1.jpg"
+      social = [
+        ["icon-facebook", "https://www.facebook.com/inspiredeventsbycb33"],
+        ["icon-linkedin", "https://www.linkedin.com/in/colleen-bataille"],
+        ["icon-instagram", "http://instagram.com/inspiredeventsbycb"],
+        ["icon-pinterest", "https://www.pinterest.com/inspiredevents3"],
+        ["icon-home", "https://www.inspiredeventsbycb.com"]
       ]
