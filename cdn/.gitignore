@@ -1,0 +1,5 @@
+decrypted-variables.tf
+tfplan
+terraform.tfstate
+terraform.tfstate.back*
+.terraform/**
