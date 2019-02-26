@@ -1,4 +1,4 @@
-#fh5co-work {
+#fh5co-services {
   overflow: hidden;
   position: relative;
   color: rgba(255, 255, 255, 0.8);
@@ -6,10 +6,25 @@
   background-image:var(--gradient-webkit);
 }
 
-#fh5co-work .section-heading h3 {
+#fh5co-services .section-heading h3 {
   color: var(--light-main);
+  font-size: 50px;
+  font-weight: 400;
 }
 
-#fh5co-work .section-heading h2:after {
+#fh5co-services h4 {
+  color: var(--light-main);
+  font-size: 28px;
+  font-weight: 200;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+#fh5co-services .section-heading h2:after {
   background: var(--light-main) !important;
+}
+
+#fh5co-services a, a:active, a:hover, a:focus {
+  color: var(--light-main);
+  border-bottom: 1px dashed var(--light-main);
 }
