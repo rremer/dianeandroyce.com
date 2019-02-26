@@ -40,6 +40,13 @@
   }
 }
 
+.important h1 {
+  color: var(--light-main);
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 200px !important;
+}
+
 #fh5co-header .navbar-brand {
   float: left;
   display: block;

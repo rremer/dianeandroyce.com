@@ -9,7 +9,7 @@ theme = "hugo-elate-theme"
   
   [params.navigation]
     brand = "#DianeToBeARemer"
-    work = "when"
+    services = "when"
     about = "where"
     testimonials = "answers"
     contact = "who"
@@ -18,36 +18,60 @@ theme = "hugo-elate-theme"
     title = "Diane to be a Remer!"
     subtitle = 'A union of <a ref="#diane" target="_blank">Diane Tran</a> and <a ref="#royce" target="_blank">Royce Remer</a>'
  
-  [params.work]
+  [params.services]
     enable = true
     title = "When"
-    description = "Save the date!"
+    date = "June 28th, 2019"
+
+    [[params.services.item]]
+      icon = "icon-bell2"
+      time = "3:15 PM"
+      title = "Ceremony"
+      description = "A short procession and witnessing of our vows."
+
+    [[params.services.item]]
+      icon = "icon-camera2"
+      time = "4:00 PM"
+      title = "Photos"
+      description = 'All the permutations of guest photos. Games and drinks too.'
+
+    [[params.services.item]]
+      icon = "icon-moon2"
+      time = "5:45 PM"
+      title = "Dinner"
+      description = 'Dinner is served. <a ref="#menu" target="_blank">Menu here</a>.'
+
+    [[params.services.item]]
+      icon = "icon-microphone"
+      time = "6:00 PM"
+      title = "Toasts"
+      description = "People extol Dian's grace and fine taste."
+
+    [[params.services.item]]
+      icon = "icon-pie-graph"
+      time = "7:30 PM"
+      title = "Cake"
+      description = "People take bites out of Diane's cake."
+
+    [[params.services.item]]
+      icon = "icon-shuffle2"
+      time = "8:00 PM"
+      title = "Dancing"
+      description = "Get down and boogie."
  
   [params.about]
     enable = true
     title = "Where"
-    description = "A venue fitting of our union."
-
-    [[params.about.item]]
-      name = "Childcare"
-      description = "A trusted care person will be onsite to help watch over your little ones."
-
-    [[params.about.item]]
-      name = "Parking"
-      description = "Free parking will be available, with enough spaces for half the guest list."
-
-    [[params.about.item]]
-      name = "Games"
-      description = "There will will civilized outdoor games, as well as smaller tabletop games."
+    description = "2750 Adeline Drive<br>Burlingame, CA 94010"
 
   [params.testimonials]
     enable = true
     title = "Answers"
-    description = "What else you need to know."
+    description = "Everything else you may wish to know."
 
     [[params.testimonials.item]]
       question = "What should I wear?"
-      answer = "For the men, a dark suit with an optional tie or bowtie and any kind of button up. For the ladies, wear anything from sequined, over-the-knee dresses to elegant ankle-length gowns."
+      answer = "<b>Gentlemen:</b> a dark suit with an optional tie or bowtie and any kind of button up.<br><br><b>Ladies</b>: anything from over-the-knee sequined dresses to elegant ankle-length gowns."
       person = "Mr. Badger"
       img = "mrbadger.png"
       alt = "Mr. Badger"
@@ -55,6 +79,10 @@ theme = "hugo-elate-theme"
     [[params.testimonials.item]]
       question = "Are you expecting a gift?"
       answer = "No, thank you.  Your presence is our present! If you absolutely insist on giving a gift, refer to <a href=registries.md>registries here</a>"
+    
+    [[params.testimonials.item]]
+      question = "Is parking available?"
+      answer = "Yes! It's free, and there is plenty of it, complete with handicap access."
 
     [[params.testimonials.item]]
       question = "How did you two meet?"
@@ -62,7 +90,7 @@ theme = "hugo-elate-theme"
     
     [[params.testimonials.item]]
       question = "Who is in the wedding party?"
-      answer = "A combination of close family and friends, please refer to (link here) to learn more about the wedding party!"
+      answer = 'A combination of close family and friends; <a ref="#who" target="_blank">complete list</a>'
       
      [[params.testimonials.item]]
       question = "Are children invited to your wedding?"
@@ -74,23 +102,19 @@ theme = "hugo-elate-theme"
      
      [[params.testimonials.item]]
       question = "What kind of entertainment or festivities will be there?"
-      answer = "Fuck if I know. Go drink."
+      answer = "Board games, lawn games, music, and a dance floor."
       
      [[params.testimonials.item]]
       question = "Will there be drinks and food?"
       answer = "Yes! We will have hors d'oeuvres before the ceremony, an open bar, dinner, and a dessert bar."
       
      [[params.testimonials.item]]
-      question = "How can I stay updated?"
-      answer = "There will be a mailing list for guests and Diane or Colleen (wedding planner) will send updates every so often leading up to the wedding day."
-      
-     [[params.testimonials.item]]
       question = "Where are you going for your honeymoon?"
-      answer = "Buhhhh...."
+      answer = "Somewhere secret and romantic."
       
      [[params.testimonials.item]]
       question = "What can I do to help out with the wedding?"
-      answer = "We would prefer that our dearest family and friends have fun and enjoy the day. The staff and Colleen (wedding planner) will take care of the details."
+      answer = "Show up! We would prefer that everyone relax and enjoy themselves. Our paid staff will take care of everything."
       
       
   [params.contact]

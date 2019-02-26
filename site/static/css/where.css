@@ -10,6 +10,12 @@
   color: var(--dark-main);
 }
 
+#fh5co-about .section-heading h3 {
+  color: var(--dark-main);
+  font-size: 50px;
+  font-weight: 400;
+}
+
 /* not sure we want these headings, so matches
  * the background of the partial page atm.
  */

@@ -48,12 +48,14 @@
   color: var(--dark-main);
 }
 
-#fh5co-testimonials .box-testimony blockquote a {
-  color: var(--theme-sub);
+#fh5co-testimonials .box-testimony a:hover {
+  color: var(--theme-main);
+  border-bottom: 1px dashed var(--theme-main);
 }
 
-#fh5co-testimonials .box-testimony blockquote a:hover {
+#fh5co-testimonials .box-testimony blockquote a {
   color: var(--dark-main);
+  border-bottom: 1px dashed var(--dark-main);
 }
 
 #fh5co-testimonials .box-testimony .author {
