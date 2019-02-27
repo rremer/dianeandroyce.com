@@ -21,9 +21,9 @@
 #fh5co-testimonials .box-testimony blockquote {
   padding-left: 0;
   border-left: none;
-  padding: 30px;
+  padding: 1.2em;
   background: var(--light-main);
-  font-size: 20px;
+  font-size: 1em;
   font-weight: 300;
   position: relative;
   -webkit-border-radius: 7px;
@@ -36,7 +36,7 @@
   content: "";
   position: absolute;
   top: 100%;
-  left: 40px;
+  left: 1.5em;
   border-top: 10px solid var(--dark-main);
   border-top-color: var(--light-main);
   border-left: 10px solid transparent;
@@ -61,7 +61,7 @@
 #fh5co-testimonials .box-testimony .author {
   line-height: 20px;
   color: var(--dark-main);
-  font-size: 16px;
+  font-size: .9em;
   margin-left: 20px;
   font-weight: 400;
 }
