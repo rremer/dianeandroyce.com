@@ -64,6 +64,11 @@ theme = "hugo-elate-theme"
     title = "Where"
     description = "2750 Adeline Drive<br>Burlingame, CA 94010"
 
+    [[params.about.image]]
+      img = "kohl_floor_plan.png"
+      alt = "Kohl Floorplan"
+      title = "Kohl Mansion"
+
   [params.testimonials]
     enable = true
     title = "Answers"
@@ -87,6 +92,10 @@ theme = "hugo-elate-theme"
     [[params.testimonials.item]]
       question = "How did you two meet?"
       answer = "We both worked in a Tech Stop at Google and sat next to each other.  We were an efficient team with complementary skillsets; Royce was far more technical when working with engineers and Diane was much more patient with the non-technical folks."
+      
+     [[params.testimonials.item]]
+      question = "Can I have a centerpiece?"
+      answer = "Yes! Take the candles, the flowers, board games, extra slices of cake..."
     
     [[params.testimonials.item]]
       question = "Who is in the wedding party?"
