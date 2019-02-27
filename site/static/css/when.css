@@ -8,13 +8,14 @@
 
 #fh5co-services .section-heading h3 {
   color: var(--light-main);
-  font-size: 50px;
-  font-weight: 400;
+  font-size: 1.8em !important;
+  font-weight: 500 !important;
+  line-height: 1.2;
 }
 
 #fh5co-services h4 {
   color: var(--light-main);
-  font-size: 28px;
+  font-size: 1.2em;
   font-weight: 200;
   padding-bottom: 0px;
   margin-bottom: 0px;
