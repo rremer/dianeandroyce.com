@@ -65,9 +65,12 @@ theme = "hugo-elate-theme"
     description = "2750 Adeline Drive<br>Burlingame, CA 94010"
 
     [[params.about.image]]
+      img = "kohl_outside.png"
+      title = "Kohl mansion facade"
+
+    [[params.about.image]]
       img = "kohl_floor_plan.png"
-      alt = "Kohl Floorplan"
-      title = "Kohl Mansion"
+      title = "Kohl mansion floorplan"
 
   [params.testimonials]
     enable = true

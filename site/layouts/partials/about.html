@@ -1,0 +1,26 @@
+	<section id="fh5co-about" data-section="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="to-animate">{{ with .Site.Params.about.title }}{{ . | markdownify }}{{ end }}</h2>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+							<h3>{{ with .Site.Params.about.description }}{{ . | markdownify }}{{ end }}</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+			{{ range .Site.Params.about.image }}
+				<div class="col-md-6">
+					<a href="images/{{ .img }}" class="fh5co-image image-popup to-animate">
+						<img src="images/{{ .img }}" alt="{{ .title }}" class="img-responsive">
+					</a>
+				        <div class="text-center">
+				        	<p>{{ .title }}</p>
+				        </div>
+				</div>				
+			{{ end }}
+			</div>
+		</div>
+	</section>

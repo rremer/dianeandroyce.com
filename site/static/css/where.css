@@ -5,9 +5,10 @@
   background-color:var(--light-main);
 }
 
-.fh5co-person p {
-  font-style: italic;
+#fh5co-about p {
   color: var(--dark-main);
+  font-size: 1.5em;
+  border-bottom: 0px var(--light-main) !important;
 }
 
 #fh5co-about .section-heading h3 {
