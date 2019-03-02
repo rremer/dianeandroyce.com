@@ -8,7 +8,8 @@ A static website for [www.dianeandroyce.com].
 
 The site is automatically built via [netlify.toml] on commit. To develop locally:
 1. [Install hugo]
-2. ```sh
+2. Run the following:
+```sh
 git submodule update --init
 cd site
 hugo --gc --minify --destination generated
