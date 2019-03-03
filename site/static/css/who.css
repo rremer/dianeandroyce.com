@@ -1,0 +1,26 @@
+.social li a.social-box {
+  background: var(--theme-main);
+  color: var(--light-main);
+}
+
+.social li a.social-circle {
+  background: var(--theme-main);
+  color: var(--light-main);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.social li a:hover {
+  background: var(--theme-main) !important;
+}
+
+.social.social-circle a {
+  background: var(--theme-main);
+  color: var(--light-main);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}

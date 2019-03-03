@@ -5,7 +5,7 @@ theme = "hugo-elate-theme"
 
 [params]
 
-  custom_css = ["css/colors.css","css/header.css","css/home.css","css/when.css","css/answers.css","css/where.css"]
+  custom_css = ["css/colors.css","css/header.css","css/home.css","css/when.css","css/answers.css","css/where.css","css/who.css"]
   
   [params.navigation]
     brand = "#DianeToBeARemer"
@@ -16,7 +16,7 @@ theme = "hugo-elate-theme"
 
   [params.hero]
     title = "Diane to be a Remer!"
-    subtitle = 'A union of <a ref="#diane" target="_blank">Diane Tran</a> and <a ref="#royce" target="_blank">Royce Remer</a>'
+    subtitle = 'A union of <a href="#who">Diane Tran</a> and <a href="#who">Royce Remer</a>'
  
   [params.services]
     enable = true
@@ -39,7 +39,7 @@ theme = "hugo-elate-theme"
       icon = "icon-moon2"
       time = "5:45 PM"
       title = "Dinner"
-      description = 'Dinner is served. <a ref="#menu" target="_blank">Menu here</a>.'
+      description = 'Dinner is served. <a href="#menu">Menu here</a>.'
 
     [[params.services.item]]
       icon = "icon-microphone"
@@ -86,7 +86,7 @@ theme = "hugo-elate-theme"
 
     [[params.testimonials.item]]
       question = "Are you expecting a gift?"
-      answer = "No, thank you.  Your presence is our present! If you absolutely insist on giving a gift, refer to <a href=registries.md>registries here</a>"
+      answer = "No, thank you.  Your presence is our present!"
     
     [[params.testimonials.item]]
       question = "Is parking available?"
@@ -94,7 +94,7 @@ theme = "hugo-elate-theme"
 
     [[params.testimonials.item]]
       question = "How did you two meet?"
-      answer = "We both worked in a Tech Stop at Google and sat next to each other.  We were an efficient team with complementary skillsets; Royce was far more technical when working with engineers and Diane was much more patient with the non-technical folks."
+      answer = "We worked together in IT support at Google."
       
      [[params.testimonials.item]]
       question = "Can I have a centerpiece?"
@@ -102,7 +102,7 @@ theme = "hugo-elate-theme"
     
     [[params.testimonials.item]]
       question = "Who is in the wedding party?"
-      answer = 'A combination of close family and friends; <a ref="#who" target="_blank">complete list</a>'
+      answer = 'A combination of close family and friends; <a href="#who">complete list</a>'
       
      [[params.testimonials.item]]
       question = "Are children invited to your wedding?"
@@ -134,31 +134,105 @@ theme = "hugo-elate-theme"
     title = "Who"
     description = "Members of the wedding party."
 
-    [[params.contact.hers]]
+    [[params.contact.one]]
       name = "Diane Tran"
       position = "Bride"
-      description = ""
       img = "diane_tran.jpg"
       social = [
         ["icon-facebook", "https://www.facebook.com/dammmitdiane"],
         ["icon-linkedin", "https://www.linkedin.com/in/dianediemtran"]
       ]
 
-    [[params.contact.his]]
+    [[params.contact.one]]
       name = "Royce Remer"
       position = "Groom"
-      description = ""
       img = "royce_remer.png"
       social = [
         ["icon-facebook", "https://www.facebook.com/royceremer"],
         ["icon-linkedin", "https://www.linkedin.com/in/royceremer"]
       ]
 
-    [[params.contact.theirs]]
+    [[params.contact.two]]
+      name = "Jillian Middleton"
+      position = "Maid of Honor"
+      img = "person2.jpg"
+      relation = "Best friend from college."
+      social = [
+        ["icon-facebook", "https://www.facebook.com/itsjillianmcl"],
+      ]
+
+    [[params.contact.two]]
+      name = "Rochelle Chantengco"
+      position = "Bridesmaid"
+      img = "person2.jpg"
+      relation = "Childhood friend."
+      social = [
+        ["icon-facebook", "https://www.facebook.com/rochellechan"],
+      ]
+
+    [[params.contact.two]]
+      name = "James O'Hanrahan"
+      position = "Man of Honor"
+      img = "person2.jpg"
+      relation = "2nd cousin and childhood friend."
+      social = [
+        ["icon-facebook", "https://www.facebook.com/james.ohanrahan"],
+      ]
+
+    [[params.contact.two]]
+      name = "Evan Gerardo"
+      position = "Groomsman"
+      img = "person2.jpg"
+      relation = "Unofficial 3rd brother and childhood friend."
+      social = [
+        ["icon-home", "https://evangerardo.com"]
+      ]
+
+    [[params.contact.three]]
+      name = "Shilpi Tomar"
+      position = "Bridesmaid"
+      img = "person2.jpg"
+      social = [
+        ["icon-facebook", "https://www.facebook.com/shilpi.tomar"],
+      ]
+
+    [[params.contact.three]]
+      name = "Jerome Chen"
+      position = "Bridesman"
+      img = "person2.jpg"
+      relation = "Longtime coworker and prior roommate."
+      social = []
+
+    [[params.contact.three]]
+      name = "Norman Remer"
+      position = "Groomsman"
+      img = "person2.jpg"
+      relation = "Eldest brother."
+      social = []
+
+    [[params.contact.three]]
+      name = "Patrick Remer"
+      position = "Groomsman"
+      img = "person2.jpg"
+      relation = "Elder brother."
+      social = [
+        ["icon-facebook", "https://www.facebook.com/patrick.remer.98"],
+      ]
+
+    [[params.contact.four]]
+      name = "Emilio Arias"
+      position = "Officiant"
+      img = "person2.jpg"
+      relation = "Prior roommate."
+      social = [
+        ["icon-facebook", "https://www.facebook.com/emilio.arias"],
+      ]
+
+    [[params.contact.four]]
       name = "Colleen Bataille"
       position = "Planner"
-      description = ""
       img = "colleen_bataille.png"
+      relation = "Planned Jillian's wedding!"
       social = [
         ["icon-facebook", "https://www.facebook.com/inspiredeventsbycb33"],
         ["icon-linkedin", "https://www.linkedin.com/in/colleen-bataille"],
@@ -166,3 +240,4 @@ theme = "hugo-elate-theme"
         ["icon-pinterest", "https://www.pinterest.com/inspiredevents3"],
         ["icon-home", "https://www.inspiredeventsbycb.com"]
       ]
+
