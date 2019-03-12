@@ -155,7 +155,7 @@ theme = "hugo-elate-theme"
     [[params.contact.two]]
       name = "Jillian Middleton"
       position = "Maid of Honor"
-      img = "person2.jpg"
+      img = "jillian.JPG"
       relation = "Best friend from college."
       social = [
         ["icon-facebook", "https://www.facebook.com/itsjillianmcl"],
@@ -192,6 +192,7 @@ theme = "hugo-elate-theme"
       name = "Shilpi Tomar"
       position = "Bridesmaid"
       img = "person2.jpg"
+      relation = "College friend from SJSU."
       social = [
         ["icon-facebook", "https://www.facebook.com/shilpi.tomar"],
       ]
@@ -240,4 +241,15 @@ theme = "hugo-elate-theme"
         ["icon-pinterest", "https://www.pinterest.com/inspiredevents3"],
         ["icon-home", "https://www.inspiredeventsbycb.com"]
       ]
+      
+    [[params.contact.four]]
+      name = "Heather Elizabeth"
+      position = "Photographer"
+      img = "heatherelizabeth.jpg"
+      relation = "Photographed Christy and Jason's wedding!"
+      social = [
+        ["icon-facebook", "https://www.facebook.com/heatherelizabethphotography"],
+        ["icon-instagram", "https://www.instagram.com/theheatherelizabeth"],
+        ["icon-pinterest", "https://www.pinterest.com/heatherelizs"],
+        ["icon-home", "https://heatherelizabethphotography.com"]
 
