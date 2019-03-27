@@ -86,7 +86,7 @@ theme = "hugo-elate-theme"
 
     [[params.testimonials.item]]
       question = "Are you expecting a gift?"
-      answer = "No, thank you.  Your presence is our present!"
+      answer = "No, thank you.  Your presence is our present! But we also have an Amazon Wedding Restry <a href="https://smile.amazon.com/wedding/share/Diane-and-royce>here</a>."
     
     [[params.testimonials.item]]
       question = "Is parking available?"
@@ -191,7 +191,7 @@ theme = "hugo-elate-theme"
     [[params.contact.three]]
       name = "Shilpi Tomar"
       position = "Bridesmaid"
-      img = "person2.jpg"
+      img = "shilpi.jpg"
       relation = "College friend from SJSU."
       social = [
         ["icon-facebook", "https://www.facebook.com/shilpi.tomar"],
@@ -200,7 +200,7 @@ theme = "hugo-elate-theme"
     [[params.contact.three]]
       name = "Jerome Chen"
       position = "Bridesman"
-      img = "person2.jpg"
+      img = "jerome.png"
       relation = "Longtime coworker and prior roommate."
       social = []
 
@@ -223,7 +223,7 @@ theme = "hugo-elate-theme"
     [[params.contact.four]]
       name = "Emilio Arias"
       position = "Officiant"
-      img = "person2.jpg"
+      img = "emilio.png"
       relation = "Prior roommate."
       social = [
         ["icon-facebook", "https://www.facebook.com/emilio.arias"],
