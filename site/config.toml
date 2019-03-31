@@ -80,9 +80,6 @@ theme = "hugo-elate-theme"
     [[params.testimonials.item]]
       question = "What should I wear?"
       answer = "<b>Gentlemen:</b> a dark suit with an optional tie or bowtie and any kind of button up.<br><br><b>Ladies</b>: anything from over-the-knee sequined dresses to elegant ankle-length gowns."
-      person = "Mr. Badger"
-      img = "mrbadger.png"
-      alt = "Mr. Badger"
 
     [[params.testimonials.item]]
       question = "Are you expecting a gift?"
