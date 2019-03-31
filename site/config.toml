@@ -125,6 +125,86 @@ theme = "hugo-elate-theme"
       question = "What can I do to help out with the wedding?"
       answer = "Show up! We would prefer that everyone relax and enjoy themselves. Our paid staff will take care of everything."
       
+     [[params.testimonials.appetizer]]
+      name = "Petite BBQ Pork Bun"
+      contents = "scallion, sesame"
+      
+     [[params.testimonials.appetizer]]
+      name = "Seared Beef Tenderloin"
+      contents = "smoked potato, parmesan, sage contains dairy, gluten free"
+      
+     [[params.testimonials.appetizer]]
+      name = "Mini Banh Mi"
+      contents = "roast pork, pickled vegetables"
+      
+     [[params.testimonials.appetizer]]
+      name = "Six Herb Crepes"
+      contents = "Parma ham, roasted artichokes, shaved parmesan contains gluten, dairy"
+      
+     [[params.testimonials.appetizer]]
+      name = "Celery Root Chip"
+      contents = "fennel, goat cheese, black olive vegetarian. contains dairy"
+
+     [[params.testimonials.dinner]]
+       name = "Spring Asparagus Salad"
+       contents = "poached asparagus with tarragon mustard vinaigrette, marinated beets, radishes and petite greens vegetarian. Contains gluten, dairy"
+
+     [[params.testimonials.dinner]]
+      name = "Tuscan Marinated Chicken Breast"
+      contents = "roasted pepper, olives, fresh rosemary gluten free"
+
+     [[params.testimonials.dinner]]
+      name = "Seared Beef Tri Tip"
+      contents = "rosemary oil, shaved Reggiano contains dairy, gluten free"
+
+     [[params.testimonials.dinner]]
+      name = "Artichoke Artichoke and and Goat Cheese Strudel"
+      contents = "balsamic balsamic syrup syrup vegetarian, vegetarian, contains contains gluten, gluten, dairy dairy"
+
+     [[params.testimonials.dinner]]
+      name = "Summer French Beans"
+      contents = "shallots, thyme, tomato gluten free, vegan"
+
+     [[params.testimonials.dinner]]
+      name = "Artisan Breads"
+      contents = "a seasonal selection Straus dairy cultured organic butter contains gluten, dairy"
+
+     [[params.testimonials.dinner]]
+      name = "Artisan Breads"
+      contents = "a seasonal selection Straus dairy cultured organic butter contains gluten, dairy"
+
+     [[params.testimonials.dessert]]
+      name = "Passion Curd Tart"
+      contents = "vegan. contains gluten"
+
+     [[params.testimonials.dessert]]
+      name = "Huckleberry Breton Cookie"
+      contents = "contains gluten, dairy"
+
+     [[params.testimonials.dessert]]
+      name = "Strawberry Mascarpone Panna Cotta"
+      contents = "gluten free. contains gelatin"
+
+     [[params.testimonials.dessert]]
+      name = "Milk Chocolate Cherry Cheesecake"
+      contents = "contains gluten, dairy"
+
+     [[params.testimonials.beverage]]
+     name = "Coffee / Tea"
+     contents = "Ask server for options."
+
+     [[params.testimonials.beverage]]
+     name = "White"
+     contents = "Greywacke SauvignonBlanc 2016<br/>Sonoma-CutrerRussianRiver Chardonnay 2015<br>Domaine Carneros Brut"
+
+     [[params.testimonials.beverage]]
+     name = "Red"
+     contents = "Dept C Pinot Noir AndersonValley 2012<br/>Whitehall Lane Tre Leoni Cabernet Blend 2014"
+
+     [[params.testimonials.beverage]]
+     name = "Beer"
+     contents = "Anchor California Lager<br/> Racer 5 IPA<br/>Amstel Light"
+
       
   [params.contact]
     enable = true
