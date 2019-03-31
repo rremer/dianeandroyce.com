@@ -45,7 +45,7 @@ theme = "hugo-elate-theme"
       icon = "icon-microphone"
       time = "6:00 PM"
       title = "Toasts"
-      description = "People extol Dian's grace and fine taste."
+      description = "People extol Diane's grace and fine taste."
 
     [[params.services.item]]
       icon = "icon-pie-graph"
