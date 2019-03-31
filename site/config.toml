@@ -143,7 +143,7 @@ theme = "hugo-elate-theme"
     [[params.contact.one]]
       name = "Royce Remer"
       position = "Groom"
-      img = "royce_remer.png"
+      img = "royce_remer.jpg"
       social = [
         ["icon-facebook", "https://www.facebook.com/royceremer"],
         ["icon-linkedin", "https://www.linkedin.com/in/royceremer"]
@@ -170,7 +170,7 @@ theme = "hugo-elate-theme"
     [[params.contact.two]]
       name = "James O'Hanrahan"
       position = "Man of Honor"
-      img = "person2.jpg"
+      img = "james_ohanrahan.jpg"
       relation = "2nd cousin and childhood friend."
       social = [
         ["icon-facebook", "https://www.facebook.com/james.ohanrahan"],
@@ -204,14 +204,14 @@ theme = "hugo-elate-theme"
     [[params.contact.three]]
       name = "Norman Remer"
       position = "Groomsman"
-      img = "person2.jpg"
+      img = "norman_remer.jpg"
       relation = "Eldest brother."
       social = []
 
     [[params.contact.three]]
       name = "Patrick Remer"
       position = "Groomsman"
-      img = "person2.jpg"
+      img = "patrick_remer.jpg"
       relation = "Elder brother."
       social = [
         ["icon-facebook", "https://www.facebook.com/patrick.remer.98"],
@@ -220,7 +220,7 @@ theme = "hugo-elate-theme"
     [[params.contact.four]]
       name = "Emilio Arias"
       position = "Officiant"
-      img = "emilio.png"
+      img = "emilio_arias.jpg"
       relation = "Prior roommate."
       social = [
         ["icon-facebook", "https://www.facebook.com/emilio.arias"],
