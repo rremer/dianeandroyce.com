@@ -86,7 +86,7 @@ theme = "hugo-elate-theme"
 
     [[params.testimonials.item]]
       question = "Are you expecting a gift?"
-      answer = "No, thank you.  Your presence is our present! But we also have an Amazon Wedding Restry <a href="https://smile.amazon.com/wedding/share/Diane-and-royce>here</a>."
+      answer = 'No, thank you.  Your presence is our present! But we also have an Amazon Wedding Restry <a href="https://smile.amazon.com/wedding/share/Diane-and-royce">here</a>.'
     
     [[params.testimonials.item]]
       question = "Is parking available?"
