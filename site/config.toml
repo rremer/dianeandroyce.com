@@ -107,7 +107,7 @@ theme = "hugo-elate-theme"
       
      [[params.testimonials.item]]
       question = "How do I get there?"
-      answer = "We have all the information you need on the (link here) page!"
+      answer = 'There is no public transit to the mansion, but plenty of free parking (handicap access too): <a href="https://goo.gl/maps/BdwrbEXL2dq">map</a>'
      
      [[params.testimonials.item]]
       question = "What kind of entertainment or festivities will be there?"
