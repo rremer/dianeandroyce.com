@@ -27,5 +27,50 @@
 				</div>
 			{{ end }}
 			</div>
+                        <a id="menu"></a>
+			<div class="row">
+				<div class="col-md-6 box-testimony text-center">
+						<blockquote class="to-animate-2">
+						  <p>Appetizer Menu</p>
+						  
+			                          {{ range .Site.Params.testimonials.appetizer }}
+						  <p><b>{{ .name | markdownify}}</b><br>
+					                {{ .contents | markdownify}}</p>
+			                          {{ end }}
+						</blockquote>
+				</div>
+				<div class="col-md-6 box-testimony text-center">
+						<blockquote class="to-animate-2">
+						  <p>Dinner Menu</p>
+						  
+			                          {{ range .Site.Params.testimonials.dinner }}
+						  <p><b>{{ .name | markdownify}}</b><br>
+					                {{ .contents | markdownify}}</p>
+			                          {{ end }}
+						</blockquote>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 box-testimony text-center">
+						<blockquote class="to-animate-2">
+						  <p>Dessert Menu</p>
+						  
+			                          {{ range .Site.Params.testimonials.dessert }}
+						  <p><b>{{ .name | markdownify}}</b><br>
+					                {{ .contents | markdownify}}</p>
+			                          {{ end }}
+						</blockquote>
+				</div>
+				<div class="col-md-6 box-testimony text-center">
+						<blockquote class="to-animate-2">
+						  <p>Beverage Menu</p>
+						  
+			                          {{ range .Site.Params.testimonials.beverage }}
+						  <p><b>{{ .name | markdownify}}</b><br>
+					                {{ .contents | markdownify}}</p>
+			                          {{ end }}
+						</blockquote>
+				</div>
+			</div>
 		</div>
 	</section>
