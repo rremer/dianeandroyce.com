@@ -46,6 +46,14 @@
 #fh5co-testimonials .box-testimony blockquote p {
   font-style: italic;
   color: var(--dark-main);
+
+}
+
+#fh5co-testimonials .box-testimony blockquote h4 {
+  color: var(--dark-main);
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.5em !important;
 }
 
 #fh5co-testimonials .box-testimony a:hover {
