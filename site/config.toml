@@ -115,7 +115,7 @@ theme = "hugo-elate-theme"
       
      [[params.testimonials.item]]
       question = "Will there be drinks and food?"
-      answer = "Yes! We will have hors d'oeuvres before the ceremony, an open bar, dinner, and a dessert bar."
+      answer = 'Yes! We will have appetizers before the ceremony, an open bar, dinner, and a dessert bar. See the <a href="#menu">full menu here</a>'
       
      [[params.testimonials.item]]
       question = "Where are you going for your honeymoon?"
@@ -158,16 +158,12 @@ theme = "hugo-elate-theme"
       contents = "rosemary oil, shaved Reggiano contains dairy, gluten free"
 
      [[params.testimonials.dinner]]
-      name = "Artichoke Artichoke and and Goat Cheese Strudel"
+      name = "Artichoke and and Goat Cheese Strudel"
       contents = "balsamic balsamic syrup syrup vegetarian, vegetarian, contains contains gluten, gluten, dairy dairy"
 
      [[params.testimonials.dinner]]
       name = "Summer French Beans"
       contents = "shallots, thyme, tomato gluten free, vegan"
-
-     [[params.testimonials.dinner]]
-      name = "Artisan Breads"
-      contents = "a seasonal selection Straus dairy cultured organic butter contains gluten, dairy"
 
      [[params.testimonials.dinner]]
       name = "Artisan Breads"
