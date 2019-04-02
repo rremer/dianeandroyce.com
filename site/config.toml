@@ -25,6 +25,12 @@ theme = "hugo-elate-theme"
 
     [[params.services.item]]
       icon = "icon-bell2"
+      time = "3:00 PM"
+      title = "Doors open"
+      description = "Walk the grounds and enjoy yourself."
+      
+    [[params.services.item]]
+      icon = "icon-bell2"
       time = "3:15 PM"
       title = "Ceremony"
       description = "A short procession and witnessing of our vows."
@@ -237,7 +243,7 @@ theme = "hugo-elate-theme"
     [[params.contact.two]]
       name = "Rochelle Chantengco"
       position = "Bridesmaid"
-      img = "person2.jpg"
+      img = "rochelle.jpg"
       relation = "Childhood friend."
       social = [
         ["icon-facebook", "https://www.facebook.com/rochellechan"],
