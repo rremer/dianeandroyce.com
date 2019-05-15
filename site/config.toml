@@ -17,6 +17,7 @@ theme = "hugo-elate-theme"
   [params.hero]
     title = "Diane to be a Remer!"
     subtitle = 'A union of <a href="#who">Diane Tran</a> and <a href="#who">Royce Remer</a>'
+    image = "hug_laugh_0.png"
  
   [params.services]
     enable = true
