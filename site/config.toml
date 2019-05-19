@@ -24,7 +24,7 @@ theme = "hugo-elate-theme"
     date = "June 28th, 2019"
 
     [[params.services.item]]
-      icon = "icon-bell2"
+      icon = "icon-sun"
       time = "3:00 PM"
       title = "Doors open"
       description = "Walk the grounds and enjoy yourself."
@@ -42,7 +42,7 @@ theme = "hugo-elate-theme"
       description = 'All the permutations of guest photos. Games and drinks too.'
 
     [[params.services.item]]
-      icon = "icon-moon2"
+      icon = "icon-heart2"
       time = "5:45 PM"
       title = "Dinner"
       description = 'Dinner is served. <a href="#menu">Menu here</a>.'
@@ -315,7 +315,6 @@ theme = "hugo-elate-theme"
       relation = "Planned Jillian's wedding!"
       social = [
         ["icon-facebook", "https://www.facebook.com/inspiredeventsbycb33"],
-        ["icon-linkedin", "https://www.linkedin.com/in/colleen-bataille"],
         ["icon-instagram", "http://instagram.com/inspiredeventsbycb"],
         ["icon-pinterest", "https://www.pinterest.com/inspiredevents3"],
         ["icon-home", "https://www.inspiredeventsbycb.com"]
