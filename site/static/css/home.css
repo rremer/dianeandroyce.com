@@ -1,12 +1,25 @@
 #fh5co-home .gradient {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 2;
-  opacity: .9;
-  -webkit-backface-visibility: hidden;
-  background-color:var(--theme-main);
   background-image:var(--gradient-webkit);
+  background-size: cover; 
+}
+
+@media (min-width: 1680px) {
+#fh5co-home .gradient {
+    -webkit-backface-visibility: hidden;
+    background: linear-gradient(to bottom, rgba(3,39,76,1) 0%,rgba(3,39,76,0.7) 25%,rgba(22,138,244,0.7) 100%), url("/images/hero.png") no-repeat center;
+  }
+}
+
+@media (max-width: 280px) {
+#fh5co-home .gradient {
+    -webkit-backface-visibility: hidden;
+    background: linear-gradient(to bottom, rgba(3,39,76,1) 0%,rgba(3,39,76,0.7) 25%,rgba(22,138,244,0.7) 100%), url("/images/hero_250.png") no-repeat center;
+  }
+}
+
+@media (max-width: 1090px) {
+#fh5co-home .gradient {
+    -webkit-backface-visibility: hidden;
+    background: linear-gradient(to bottom, rgba(3,39,76,1) 0%,rgba(3,39,76,0.7) 25%,rgba(22,138,244,0.7) 100%), url("/images/hero_1050.png") no-repeat center;
+  }
 }
