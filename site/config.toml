@@ -84,6 +84,10 @@ theme = "hugo-elate-theme"
     description = "Everything else you may wish to know."
 
     [[params.testimonials.item]]
+      question = "Do I need to RSVP?"
+      answer = "Nope! Just show up. Or don't, that's fine too."
+
+    [[params.testimonials.item]]
       question = "What should I wear?"
       answer = "<b>Gentlemen:</b> a dark suit with an optional tie or bowtie and any kind of button up.<br><br><b>Ladies</b>: anything from over-the-knee sequined dresses to elegant ankle-length gowns."
 
