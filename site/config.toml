@@ -86,54 +86,67 @@ theme = "hugo-elate-theme"
     [[params.testimonials.item]]
       question = "Do I need to RSVP?"
       answer = "Nope! Just show up. Or don't, that's fine too."
-
-    [[params.testimonials.item]]
-      question = "What should I wear?"
-      answer = "<b>Gentlemen:</b> a dark suit with an optional tie or bowtie and any kind of button up.<br><br><b>Ladies</b>: anything from over-the-knee sequined dresses to elegant ankle-length gowns."
+      img = "emojis/q0.jpg"
 
     [[params.testimonials.item]]
       question = "Are you expecting a gift?"
       answer = 'No, thank you. Your presence is our present! But we also have an Amazon Wedding Registry <a href="https://smile.amazon.com/wedding/share/Diane-and-royce">here</a>.'
+      img = "emojis/q1.jpg"
     
+    [[params.testimonials.item]]
+      question = "What should I wear?"
+      answer = "<b>Gentlemen:</b> a dark suit with an optional tie or bowtie and any kind of button up.<br><br><b>Ladies</b>: anything from over-the-knee sequined dresses to elegant ankle-length gowns."
+      img = "emojis/q2.jpg"
+
     [[params.testimonials.item]]
       question = "Is parking available?"
       answer = "Yes! It's free, and there is plenty of it, complete with handicap access."
+      img = "emojis/q3.jpg"
 
     [[params.testimonials.item]]
       question = "How did you two meet?"
       answer = "We worked together in IT support at Google."
+      img = "emojis/q5.jpg"
       
      [[params.testimonials.item]]
       question = "Can I have a centerpiece?"
       answer = "Yes! Take the candles, the flowers, board games, extra slices of cake..."
+      img = "emojis/q3.jpg"
     
     [[params.testimonials.item]]
       question = "Who is in the wedding party?"
       answer = 'A combination of close family and friends; <a href="#who">complete list</a>'
+      img = "emojis/q3.jpg"
       
      [[params.testimonials.item]]
       question = "Are children invited to your wedding?"
       answer = "Of course they are!  We wouldn't have it any other way."
+      img = "emojis/q4.jpg"
       
      [[params.testimonials.item]]
       question = "How do I get there?"
       answer = 'There is no public transit to the mansion, but plenty of free parking (handicap access too): <a href="https://goo.gl/maps/BdwrbEXL2dq">map</a>'
+      img = "emojis/q3.jpg"
      
      [[params.testimonials.item]]
       question = "What kind of entertainment or festivities will be there?"
       answer = "Board games, lawn games, music, and a dance floor."
+      img = "emojis/q3.jpg"
       
      [[params.testimonials.item]]
       question = "Will there be drinks and food?"
       answer = 'Yes! We will have appetizers before the ceremony, an open bar, dinner, and a dessert bar. See the <a href="#menu">full menu here</a>'
+      img = "emojis/q4.jpg"
       
      [[params.testimonials.item]]
       question = "Where are you going for your honeymoon?"
       answer = "Somewhere secret and romantic."
+      img = "emojis/q3.jpg"
       
      [[params.testimonials.item]]
       question = "What can I do to help out with the wedding?"
       answer = "Show up! We would prefer that everyone relax and enjoy themselves. Our paid staff will take care of everything."
+      img = "emojis/q3.jpg"
       
      [[params.testimonials.appetizer]]
       name = "Petite BBQ Pork Bun"
@@ -220,7 +233,7 @@ theme = "hugo-elate-theme"
     [[params.contact.one]]
       name = "Diane Tran"
       position = "Bride"
-      img = "diane_tran.jpg"
+      img = "avatars/diane_tran.jpg"
       social = [
         ["icon-facebook", "https://www.facebook.com/dammmitdiane"],
         ["icon-linkedin", "https://www.linkedin.com/in/dianediemtran"]
@@ -229,7 +242,7 @@ theme = "hugo-elate-theme"
     [[params.contact.one]]
       name = "Royce Remer"
       position = "Groom"
-      img = "royce_remer.jpg"
+      img = "avatars/royce_remer.jpg"
       social = [
         ["icon-facebook", "https://www.facebook.com/royceremer"],
         ["icon-linkedin", "https://www.linkedin.com/in/royceremer"]
@@ -238,7 +251,7 @@ theme = "hugo-elate-theme"
     [[params.contact.two]]
       name = "Jillian Middleton"
       position = "Maid of Honor"
-      img = "jillian.JPG"
+      img = "avatars/jillian_middleton.jpg"
       relation = "Best friend from college."
       social = [
         ["icon-facebook", "https://www.facebook.com/itsjillianmcl"],
@@ -247,7 +260,7 @@ theme = "hugo-elate-theme"
     [[params.contact.two]]
       name = "Rochelle Chantengco"
       position = "Bridesmaid"
-      img = "rochelle.jpg"
+      img = "avatars/rochelle_chantengco.jpg"
       relation = "Childhood friend."
       social = [
         ["icon-facebook", "https://www.facebook.com/rochellechan"],
@@ -256,7 +269,7 @@ theme = "hugo-elate-theme"
     [[params.contact.two]]
       name = "James O'Hanrahan"
       position = "Man of Honor"
-      img = "james_ohanrahan.jpg"
+      img = "avatars/james_ohanrahan.jpg"
       relation = "2nd cousin and childhood friend."
       social = [
         ["icon-facebook", "https://www.facebook.com/james.ohanrahan"],
@@ -274,7 +287,7 @@ theme = "hugo-elate-theme"
     [[params.contact.three]]
       name = "Shilpi Tomar"
       position = "Bridesmaid"
-      img = "shilpi.jpg"
+      img = "avatars/shilpi_tomar.jpg"
       relation = "College friend from SJSU."
       social = [
         ["icon-facebook", "https://www.facebook.com/shilpi.tomar"],
@@ -283,21 +296,21 @@ theme = "hugo-elate-theme"
     [[params.contact.three]]
       name = "Jerome Chen"
       position = "Bridesman"
-      img = "jerome.png"
+      img = "avatars/jerome_chen.png"
       relation = "Longtime coworker and prior roommate."
       social = []
 
     [[params.contact.three]]
       name = "Norman Remer"
       position = "Groomsman"
-      img = "norman_remer.jpg"
+      img = "avatars/norman_remer.jpg"
       relation = "Eldest brother."
       social = []
 
     [[params.contact.three]]
       name = "Patrick Remer"
       position = "Groomsman"
-      img = "patrick_remer.jpg"
+      img = "avatars/patrick_remer.jpg"
       relation = "Elder brother."
       social = [
         ["icon-facebook", "https://www.facebook.com/patrick.remer.98"],
@@ -306,7 +319,7 @@ theme = "hugo-elate-theme"
     [[params.contact.four]]
       name = "Emilio Arias"
       position = "Officiant"
-      img = "emilio_arias.jpg"
+      img = "avatars/emilio_arias.jpg"
       relation = "Prior roommate."
       social = [
         ["icon-facebook", "https://www.facebook.com/emilio.arias"],
@@ -315,7 +328,7 @@ theme = "hugo-elate-theme"
     [[params.contact.four]]
       name = "Colleen Bataille"
       position = "Planner"
-      img = "colleen_bataille.png"
+      img = "avatars/colleen_bataille.png"
       relation = "Planned Jillian's wedding!"
       social = [
         ["icon-facebook", "https://www.facebook.com/inspiredeventsbycb33"],
@@ -327,7 +340,7 @@ theme = "hugo-elate-theme"
     [[params.contact.four]]
       name = "Heather Elizabeth"
       position = "Photographer"
-      img = "heatherelizabeth.jpg"
+      img = "avatars/heather_elizabeth.jpg"
       relation = "Photographed Christy and Jason's wedding!"
       social = [
         ["icon-facebook", "https://www.facebook.com/heatherelizabethphotography"],

@@ -3,13 +3,6 @@
   background-size: cover; 
 }
 
-@media (min-width: 1680px) {
-#fh5co-home .gradient {
-    -webkit-backface-visibility: hidden;
-    background: linear-gradient(to bottom, rgba(3,39,76,1) 0%,rgba(3,39,76,0.7) 25%,rgba(22,138,244,0.7) 100%), url("/images/hero.png") no-repeat center;
-  }
-}
-
 @media (max-width: 280px) {
 #fh5co-home .gradient {
     -webkit-backface-visibility: hidden;
@@ -24,7 +17,14 @@
   }
 }
 
-@media (max-width: 3890px) {
+@media (max-width: 1700px) {
+#fh5co-home .gradient {
+    -webkit-backface-visibility: hidden;
+    background: linear-gradient(to bottom, rgba(3,39,76,1) 0%,rgba(3,39,76,0.7) 25%,rgba(22,138,244,0.7) 100%), url("/images/hero_1680.png") no-repeat center;
+  }
+}
+
+@media (min-width: 1701px) {
 #fh5co-home .gradient {
     -webkit-backface-visibility: hidden;
     background: linear-gradient(to bottom, rgba(3,39,76,1) 0%,rgba(3,39,76,0.7) 25%,rgba(22,138,244,0.7) 100%), url("/images/hero_3840.png") no-repeat center;
